@@ -87,6 +87,9 @@ int main(){
 
     printf("\n\n----------------------------- FIM DO PROGRAMA -----------------------------\n");
 
+    // Impede da tela fechar quando executa o "super_trunfo.exe";
+    getchar();
+    getchar();
 
     // Retorna 0(zero) caso o programa seja executado corretamente
     return 0;
